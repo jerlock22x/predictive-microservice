@@ -1,13 +1,13 @@
 server.port=8080
 
-# Core services
+
 arrowhead.sr=http://localhost:8443/serviceregistry
 arrowhead.orch=http://localhost:8441/orchestrator
 
-# Cum te expui în SR
+
 app.systemName=PredictiveMicroservice
-app.serviceDef=predictive-microservice            # numele serviciului t?u
-app.serviceUri=/api/predict                      # exact path-ul controller-ului
+app.serviceDef=predictive-microservice            
+app.serviceUri=/api/predict                      
 app.interface=HTTP-JSON
 
 
